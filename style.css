@@ -2,6 +2,7 @@ body {
     background-image: URL("images/background.png");
     background-repeat: repeat;
     margin: 0px;
+    padding: 0px;
     
 }
 
@@ -70,8 +71,24 @@ a.button.active{
 
 
 
-p {
-    font-size: 1cm;
+.content {
+    padding: 20px 15px;
+    font-size: 20px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+#T01 {
+    text-align: center;
+    border-collapse: collapse;
+    border-width: 0px;
+    border-spacing: 0px;
+    margin: auto;
+    padding: 0px;
 }
 
 
